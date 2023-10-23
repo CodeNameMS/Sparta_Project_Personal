@@ -98,7 +98,7 @@ public class Main {
                     System.out.printf("%-13s | %2.1f | %s\n", od.getName(), od.getPrice(), od.getExp());
                 }
                 System.out.println("[ ToTal ]");
-                System.out.printf(total+"\n\n");
+                System.out.printf("%.1f"+"\n\n", total);
                 System.out.println("1. 주문      2. 메뉴판");
                 int select4 = sc.nextInt();
             }
